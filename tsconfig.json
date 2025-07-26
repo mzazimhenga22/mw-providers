@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2021",
-    "lib": ["es2021", "DOM"],
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
@@ -15,7 +15,8 @@
     "resolveJsonModule": true,
     "paths": {
       "@/*": ["./*"],
-      "@entrypoint": ["./index.ts"]
+      "@entrypoint": ["./index.ts"],
+      "@providers": ["./index.ts"]
     }
   },
   "include": ["src", "vite.config.ts"],
